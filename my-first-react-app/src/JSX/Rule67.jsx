@@ -7,7 +7,7 @@ const Rule67 = () => {
   return (
     <div>
         <section className=""></section>
-        <label htmlFor=""></label>
+        <label htmlFor=" "></label>
     </div>
   )
 }
