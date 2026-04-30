@@ -9,6 +9,8 @@ import User1 from "./Components/User1";
 import User2 from "./Components/User2";
 import User3 from "./Components/User3";
 import Parent from "./Props/Parent";
+import Parent1 from "./Props/Parent1";
+import Admin from "./Props/Admin";
 
 const App = () => {
   return (
@@ -22,7 +24,9 @@ const App = () => {
       {/* <User1 />
       <User2 />
       <User3 /> */}
-      <Parent/>
+      {/* <Parent/> */}
+      {/* <Parent1 /> */}
+      <Admin />
     </>
   );
 };
