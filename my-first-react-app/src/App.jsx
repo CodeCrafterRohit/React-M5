@@ -14,6 +14,8 @@ import Admin from "./Props/Admin";
 import UserData from "./Props/UserData";
 import ParentComponent from "./Props/ParentComponent";
 import WithoutState from "./State/WithoutState";
+import Counter from "./State/Counter";
+import ElectionData from "./State/ElectionData";
 
 const App = () => {
   return (
@@ -32,7 +34,9 @@ const App = () => {
       {/* <Admin /> */}
       {/* <UserData/> */}
       {/* <ParentComponent /> */}
-      <WithoutState/>
+      {/* <WithoutState/> */}
+      {/* <Counter /> */}
+      <ElectionData/>
     </>
   );
 };
